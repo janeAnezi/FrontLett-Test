@@ -1,4 +1,5 @@
 import heroImage from '../assets/images/heroImage.jpg'
+import sliderelips from '../assets/icons/sliderielips.jpg'
 
 function Landing(): JSX.Element {
   return (
@@ -10,7 +11,12 @@ function Landing(): JSX.Element {
       </div>
       <div>
         <img src={heroImage} alt="photo of people clapping " />
-        <img src="" alt="slider icon" />
+        <div className='flex relative bottom-4 right-8'>
+          <img src={sliderelips} alt="slider icon" />
+          <img src={sliderelips} alt="slider icon" className='mx-2'/>
+          <img src={sliderelips} alt="slider icon" />
+        </div>
+        
       </div>
     </div>
   )
