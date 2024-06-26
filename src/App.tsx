@@ -1,3 +1,4 @@
+import Landing from "./Components/Landing"
 import NavBar from "./Components/NavBar"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <NavBar />
+        <Landing />
       
       </div>
     </>
