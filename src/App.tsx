@@ -7,6 +7,7 @@ import Feature from "./Components/Feature"
 import Focus from "./Components/Focus"
 import InvestorNetwork from "./Components/InvestorNetwork"
 import Landing from "./Components/Landing"
+import LetsBuild from "./Components/LetsBuild"
 import NavBar from "./Components/NavBar"
 import Network from "./Components/Network"
 import Quote from "./Components/Quote"
@@ -32,6 +33,7 @@ function App() {
         <Equity />
         <Blog />
         <Feature />
+        <LetsBuild />
       </div>
     </>
   )

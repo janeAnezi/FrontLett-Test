@@ -9,7 +9,7 @@ function Blog() {
   return (
     <div className="bg-slate-50 text-center pb-20">
         <h3 className="font-bold text-4xl pb-3 pt-10">Blogs & Resources</h3>
-        <div className="flex mx-20 mt-10">
+        <div className="flex mx-20 mt-10 py-10">
             <div className="mr-4">
                 <img src={vid1} alt="video image" />
                 <div className="flex mt-6">
