@@ -19,17 +19,17 @@ function Enterpreneur() {
     {
       image: ent2,
       title: "Alignment Meeting and Proposal Submission",
-      description: "If your application stands out, we'll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the needs of our portfolio companies. Following the alignment meeting, submit a formal proposal outlining your intended contributions and how you envision adding significant value to our portfolio companies."
+      description: "If your application stands out, we'll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the needs of our portfolio companies. Following the alignment meeting, submit a formal proposal."
     },
     {
       image: ent3,
       title: "Negotiation and Agreemen",
-      description: "Upon successful alignment and proposal review, we'll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation or equity arrangements. Once terms are agreed upon, we'll draft a formal agreement outlining the specifics of your EIR engagement, including reporting structures, responsibilities, and the support/resources provided by SINC Partners."
+      description: "Upon successful alignment and proposal review, we'll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation. Once terms are agreed upon, we'll draft a formal agreement outlining the specifics of your EIR engagement."
     },
     {
       image: ent4,
       title: "Alignment Meeting and Proposal Submission",
-      description: "After successful validation and demo day at the end of the EIR program, we move those with perfect fit to become co-founders of the product they validated as CEO & CTO, each owning 20% of the venture."
+      description: "After successful validation and demo day at the end of the EIR program, we move those with perfect fit to become co-founders of the product they validated as CEO & CTO, each owning 20% of the venture. terms are agreed upon, we'll draft a formal agreement of your EIR engagement"
     }
   ];
 
@@ -50,7 +50,7 @@ function Enterpreneur() {
         Our EIR program is our structured 3 months un-paid program designed to help us have a pipeline of business and technical cofounders who can run the venture of choice as CEO & CTO owning 20% equity each.
       </p>
 
-      <div className="relative flex mt-10 text-left overflow-hidden">
+      <div className="relative flex mt-10 text-left pb-10 ml-4 overflow-hidden">
         <div
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${currentIndex * 33.333}%)`, width: `${cards.length * 33.333}%` }}
@@ -60,7 +60,7 @@ function Enterpreneur() {
               <Card title=''>
                 <img src={card.image} alt="gallery" />
                 <p className="font-bold py-4 text-xl">{card.title}</p>
-                <p>{card.description}</p>
+                <p className='text-sm'>{card.description}</p>
               </Card>
             </div>
           ))}
