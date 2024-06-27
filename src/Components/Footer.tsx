@@ -2,6 +2,14 @@ import FooterCard from "./FooterCard"
 import footersc from "../assets/images/footersc.png"
 import whatsapp from "../assets/images/whatsapp.png"
 import footersc2 from "../assets/images/footersc2.png"
+import nig from "../assets/images/nig.png"
+import twitter from "../assets/images/Twitter.png"
+import fb from "../assets/images/fb.png"
+import ldn from "../assets/images/ldn.png"
+import yt from "../assets/images/yt.png"
+import medum from "../assets/images/medium.png"
+import insta from "../assets/images/insta.png"
+import letchat from "../assets/images/lcht.png"
 
 function Footer() {
   return (
@@ -130,11 +138,24 @@ function Footer() {
               <p className="text-sm mt-1">We are a business built on the <br /> foundation of Christian values and belief</p>
             </div>
           </div>
-          <div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <div className="flex justify-between mt-6 mb-3">
+            <div><p className="text-sm">&copy; 2023 SINC Partners Ltd. All rights reserved</p></div>
+            <div className="flex text-sm">
+              <p className="flex hover:text-primary justify-center items-center"><a href="http://" className="underline mr-2 ">Privacy Policy</a></p>
+              <p className="flex hover:text-primary  justify-center mx-3 items-center"><a href="http://" className="underline mr-2 ">Terms of Service</a></p>
+              <p className="flex hover:text-primary  justify-center items-center"><a href="http://" className="underline mr-2 ">Security</a></p>
+            </div>
+            <div className="flex">
+              <img src={fb} alt="facebook icon" />
+              <img src={twitter} alt="twitter icon" />
+              <img src={insta} alt="instagram icon" />
+              <img src={ldn} alt="linkedin icon" />
+              <img src={medum} alt="medium icon" />
+              <img src={yt} alt="twitter icon" />
+              <img src={letchat} alt="let chat icon" />
+            </div>
           </div>
+          <p className="flex hover:text-primary  justify-center items-center text-sm">Web In Nigeria <img className="ml-1 w-4 h-4" src={nig} alt="nigerian flag icon" /></p>
         </div>
         
     </div>
