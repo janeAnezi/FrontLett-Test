@@ -1,4 +1,5 @@
 import Card from "./Card"
+import rightarrow from "../assets/icons/down-right-1.jpg"
 
 function CoFound() {
   return (
@@ -23,6 +24,7 @@ function CoFound() {
                 <p>After successful validation and demo day at the end of the EIR program, we move those with perfect fit to become co-founders of the product they validated as CEO & CTO, each owning 20% of the venture.</p>
             </Card>
         </div>
+        <p className="flex hover:text-primary mt-6 justify-center items-center"><a href="http://" className="underline font-semibold mr-2 ">Build Your Dream</a> <img className="pt-1" src={rightarrow} alt="right arrow" /></p>
     </div>
   )
 }
