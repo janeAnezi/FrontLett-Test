@@ -5,6 +5,7 @@ import NavBar from "./Components/NavBar"
 import Network from "./Components/Network"
 import Quote from "./Components/Quote"
 import ServiceModel from "./Components/ServiceModel"
+import Studio from "./Components/Studio"
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Focus />
         <Concept />
         <ServiceModel />
+        <Studio />
       </div>
     </>
   )
