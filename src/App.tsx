@@ -5,6 +5,7 @@ import Enterpreneur from "./Components/Enterpreneur"
 import Equity from "./Components/Equity"
 import Feature from "./Components/Feature"
 import Focus from "./Components/Focus"
+import Footer from "./Components/Footer"
 import InvestorNetwork from "./Components/InvestorNetwork"
 import Landing from "./Components/Landing"
 import LetsBuild from "./Components/LetsBuild"
@@ -34,6 +35,7 @@ function App() {
         <Blog />
         <Feature />
         <LetsBuild />
+        <Footer />
       </div>
     </>
   )
