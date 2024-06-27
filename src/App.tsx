@@ -1,5 +1,6 @@
 import CoFound from "./Components/CoFound"
 import Concept from "./Components/Concept"
+import Enterpreneur from "./Components/Enterpreneur"
 import Focus from "./Components/Focus"
 import Landing from "./Components/Landing"
 import NavBar from "./Components/NavBar"
@@ -22,6 +23,7 @@ function App() {
         <ServiceModel />
         <Studio />
         <CoFound />
+        <Enterpreneur />
       </div>
     </>
   )
