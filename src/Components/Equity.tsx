@@ -1,6 +1,9 @@
 import Card from "./Card"
 import rightarrow from "../assets/icons/down-right-1.jpg"
 import eq1 from '../assets/images/eq1.png'
+import eq2 from '../assets/images/eq2.jpg'
+import eq3 from '../assets/images/eq3.jpg'
+import eq4 from '../assets/images/eq4.jpg'
 
 function Equity() {
   return (
@@ -46,9 +49,9 @@ function Equity() {
                 <button className=" bg-secondary text-white px-3 rounded-3xl py-2 font-semibold mt-6 mb-4 text-sm">View Details</button>
             </Card>
             <Card title="">
-                <img src={eq1} alt="company logo" />
+                <img src={eq2} alt="company logo" />
                 <p className=" py-4">This company is a SAAS Startup that builds AI copy generator...</p>
-                <p className="font-semibold mb-2">Chief Executive Officer</p>
+                <p className="font-semibold mb-2">UX Strategist</p>
                 <div className="flex justify-between text-sm">
                     <div>
                         <p className="text-slate-500">LOCATION</p>
@@ -82,9 +85,9 @@ function Equity() {
                 <button className=" bg-secondary text-white px-3 rounded-3xl py-2 font-semibold mt-6 mb-4 text-sm">View Details</button>
             </Card>
             <Card title="">
-                <img src={eq1} alt="company logo" />
+                <img src={eq3} alt="company logo" />
                 <p className=" py-4">This company is a SAAS Startup that builds AI copy generator...</p>
-                <p className="font-semibold mb-2">Chief Executive Officer</p>
+                <p className="font-semibold mb-2">CTO & Head of innovations</p>
                 <div className="flex justify-between text-sm">
                     <div>
                         <p className="text-slate-500">LOCATION</p>
@@ -118,9 +121,9 @@ function Equity() {
                 <button className=" bg-secondary text-white px-3 rounded-3xl py-2 font-semibold mt-6 mb-4 text-sm">View Details</button>
             </Card>
             <Card title="">
-                <img src={eq1} alt="company logo" />
+                <img src={eq4} alt="company logo" />
                 <p className=" py-4">This company is a SAAS Startup that builds AI copy generator...</p>
-                <p className="font-semibold mb-2">Chief Executive Officer</p>
+                <p className="font-semibold mb-2">Backend Developer</p>
                 <div className="flex justify-between text-sm">
                     <div>
                         <p className="text-slate-500">LOCATION</p>
