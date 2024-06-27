@@ -2,7 +2,7 @@ import Card from "./Card"
 
 function Concept() {
   return (
-    <div className="bg-slate-50 text-center mb-20">
+    <div className="bg-slate-50 text-center pb-20">
         <h3 className="font-bold text-4xl pb-3">Our Concept Innovations</h3>
         <p className="w-2/4 m-auto">We have proprietary concept innovations that will support the startup ecosystem, support solution-providers/entrepreneurs and ultimately help democratize success</p>
 

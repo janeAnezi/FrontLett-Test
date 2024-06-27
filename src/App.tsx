@@ -4,6 +4,7 @@ import Landing from "./Components/Landing"
 import NavBar from "./Components/NavBar"
 import Network from "./Components/Network"
 import Quote from "./Components/Quote"
+import ServiceModel from "./Components/ServiceModel"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         <Network />
         <Focus />
         <Concept />
+        <ServiceModel />
       </div>
     </>
   )
