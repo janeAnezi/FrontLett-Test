@@ -1,3 +1,4 @@
+import Concept from "./Components/Concept"
 import Focus from "./Components/Focus"
 import Landing from "./Components/Landing"
 import NavBar from "./Components/NavBar"
@@ -14,6 +15,7 @@ function App() {
         <Quote />
         <Network />
         <Focus />
+        <Concept />
       </div>
     </>
   )

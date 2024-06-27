@@ -2,7 +2,7 @@
 
 function Focus(): JSX.Element {
   return (
-    <div className="bg-slate-50 text-center mb-20">
+    <div className="bg-slate-50 text-center pb-20">
       <h3 className="font-bold text-4xl pb-3">Our Area of Focus</h3>
       <p className="w-2/4 m-auto">In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the lab</p>
 
