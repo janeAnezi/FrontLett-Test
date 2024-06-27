@@ -31,10 +31,10 @@ function Feature() {
       {cards.map((card, index) => (
           <div key={index} className="flex flex-shrink-0 bg-white rounded-lg shadow-lg overflow-hidden">
             <img src={card.image} alt="feature image" className="w-2/3 object-cover" />
-            <div className="text-left px-6 py-4 w-1/3">
+            <div className="text-left px-6 py-4 w-2/5">
               <img className="mb-3" src={ftlogo} alt="feature logo" />
               <p className="w-60 font-semibold text-lg mb-3">{card.title}</p>
-              <p className="w-60 mb-10">{card.description}</p>
+              <p className="w-60 mb-5">{card.description}</p>
               <p>REPORTED BY: <br /> <br /> {card.reporter}</p>
             </div>
           </div>
