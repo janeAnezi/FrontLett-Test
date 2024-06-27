@@ -42,54 +42,54 @@ function Studio() {
         <p className="w-3/4 m-auto">Our 2024 Service Incubator Portfolio Companies.</p>
 
         <div className="grid grid-cols-8 gap-2 mx-20 mt-10">
-            <div><img src={frame1} alt="gallery" className='bg-white border rounded-lg px-1 py-1 w-48 h-16'/></div>
-            <div><img src={frame2} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame3} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame4} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame5} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame12} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame8} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame6} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame9} alt="gallery" className='bg-white border rounded-lg px-2 py-1 w-48 h-16' /></div>
-            <div><img src={frame10} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16' /></div>
-            <div><img src={frame11} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame12} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame13} alt="gallery" className='bg-white border rounded-lg px-2 py-4 w-48 h-16' /></div>
-            <div><img src={frame1} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame7} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame14} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame17} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div ><img src={frame15} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame16} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame18} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame19} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame20} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame21} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame22} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame25} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame26} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame2} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame28} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame23} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame24} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame31} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame32} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame33} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame29} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame32} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame19} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame2} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame1} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame4} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame22} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame16} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame30} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame3} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame41} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame27} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame4} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame11} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
-            <div><img src={frame12} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16' /></div>
+            <div><img src={frame1} alt="gallery" className='bg-white border rounded-lg px-1 py-1 w-48 h-16 transition-transform duration-300 ease-out-in transform hover:scale-95'/></div>
+            <div><img src={frame2} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame3} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame4} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame5} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame12} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame8} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame6} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame9} alt="gallery" className='bg-white border rounded-lg px-2 py-1 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame10} alt="gallery" className='bg-white border rounded-lg px-2 py-1.5 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame11} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame12} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame13} alt="gallery" className='bg-white border rounded-lg px-2 py-4 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame1} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame7} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame14} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame17} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div ><img src={frame15} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame16} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame18} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame19} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame20} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame21} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame22} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame25} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame26} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame2} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame28} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame23} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame24} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame31} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame32} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame33} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame29} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame32} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame19} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame2} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame1} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame4} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame22} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame16} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame30} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame3} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame41} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame27} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame4} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame11} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
+            <div><img src={frame12} alt="gallery" className='bg-white border rounded-lg px-2 py-3 w-48 h-16 transition-transform duration-300 ease-in-out transform hover:scale-95' /></div>
 
         </div>
         <p className="flex hover:text-primary mt-6 justify-center items-center"><a href="http://" className="underline font-semibold mr-2 ">View All Companies</a> <img className="pt-1" src={rightarrow} alt="right arrow" /></p>
