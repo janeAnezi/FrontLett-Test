@@ -38,7 +38,7 @@ import frame27 from '../assets/images/frame27.jpg'
 function Studio() {
   return (
     <div className="bg-slate-50 text-center pb-20">
-        <h3 className="font-bold text-4xl pb-3">Our Studio Portfolio</h3>
+        <h3 className="font-bold text-4xl pb-3 pt-10">Our Studio Portfolio</h3>
         <p className="w-3/4 m-auto">Our 2024 Service Incubator Portfolio Companies.</p>
 
         <div className="grid grid-cols-8 gap-2 mx-20 mt-10">

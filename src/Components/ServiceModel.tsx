@@ -7,7 +7,7 @@ import rightarrow from "../assets/icons/down-right-1.jpg"
 function ServiceModel() {
   return (
     <div className="bg-slate-50 text-center pb-20">
-        <h3 className="font-bold text-4xl pb-3">Our Service Incubation Model</h3>
+        <h3 className="font-bold text-4xl pb-3 pt-10">Our Service Incubation Model</h3>
         <p className="w-3/4 m-auto">The Service Incubation model is an alternate funding model for startup that allows professionals to offer their services to startups in return for a minute equity (usually between 0.5% to 1.5%) in the startup. As a service incubator, you will see your share grow as much as 1000% in 12 – 24 months as been first to invest.</p>
         <div className="text-left mt-10 pl-20">
             <h4 className="font-semibold text-2xl">Hypothesis</h4>
@@ -19,7 +19,7 @@ function ServiceModel() {
                 <p>A service-for-shares model of incubating pre-product startups and early-stage companies by building their early stage product and MVP.</p>
             </Card>
             <Card title="">
-            <img src={polygon2} alt="polygon image" className="pb-4" />
+                <img src={polygon2} alt="polygon image" className="pb-4" />
                 <p>A resource share model that allows companies share the time of resources (employees, consultants, technical advisers or influencers) while also splitting the service cost of the resource.</p>
             </Card>
             <Card title="">
