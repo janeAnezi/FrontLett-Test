@@ -3,6 +3,7 @@ import CoFound from "./Components/CoFound"
 import Concept from "./Components/Concept"
 import Enterpreneur from "./Components/Enterpreneur"
 import Equity from "./Components/Equity"
+import Feature from "./Components/Feature"
 import Focus from "./Components/Focus"
 import InvestorNetwork from "./Components/InvestorNetwork"
 import Landing from "./Components/Landing"
@@ -30,6 +31,7 @@ function App() {
         <InvestorNetwork />
         <Equity />
         <Blog />
+        <Feature />
       </div>
     </>
   )
