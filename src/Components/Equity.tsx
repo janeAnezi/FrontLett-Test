@@ -158,7 +158,7 @@ function Equity() {
             </Card>
             
         </div>
-        <p className="flex hover:text-primary mt-6 justify-center items-center"><a href="http://" className="underline font-semibold mr-2 ">See More Equity Jobs</a> <img className="pt-1" src={rightarrow} alt="right arrow" /></p>
+        <p className="flex hover:text-primary mt-10 justify-center items-center"><a href="http://" className="underline font-semibold mr-2 ">See More Equity Jobs</a> <img className="pt-1" src={rightarrow} alt="right arrow" /></p>
     </div>
   )
 }

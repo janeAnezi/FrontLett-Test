@@ -1,3 +1,4 @@
+import Blog from "./Components/Blog"
 import CoFound from "./Components/CoFound"
 import Concept from "./Components/Concept"
 import Enterpreneur from "./Components/Enterpreneur"
@@ -28,6 +29,7 @@ function App() {
         <Enterpreneur />
         <InvestorNetwork />
         <Equity />
+        <Blog />
       </div>
     </>
   )
