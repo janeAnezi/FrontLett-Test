@@ -2,6 +2,7 @@ import CoFound from "./Components/CoFound"
 import Concept from "./Components/Concept"
 import Enterpreneur from "./Components/Enterpreneur"
 import Focus from "./Components/Focus"
+import InvestorNetwork from "./Components/InvestorNetwork"
 import Landing from "./Components/Landing"
 import NavBar from "./Components/NavBar"
 import Network from "./Components/Network"
@@ -24,6 +25,7 @@ function App() {
         <Studio />
         <CoFound />
         <Enterpreneur />
+        <InvestorNetwork />
       </div>
     </>
   )
