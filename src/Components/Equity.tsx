@@ -59,7 +59,7 @@ function Equity() {
                     </div>
                     <div>
                         <p className="text-slate-500">INDUSTRY</p>
-                        <p>On-Demand Pring</p>
+                        <p>E-commerce</p>
                     </div>
                 </div>
                 <div className="flex justify-between my-4 text-sm">
@@ -95,7 +95,7 @@ function Equity() {
                     </div>
                     <div>
                         <p className="text-slate-500">INDUSTRY</p>
-                        <p>On-Demand Pring</p>
+                        <p>Fintech</p>
                     </div>
                 </div>
                 <div className="flex justify-between my-4 text-sm">
@@ -131,7 +131,7 @@ function Equity() {
                     </div>
                     <div>
                         <p className="text-slate-500">INDUSTRY</p>
-                        <p>On-Demand Pring</p>
+                        <p>Transportation</p>
                     </div>
                 </div>
                 <div className="flex justify-between my-4 text-sm">
