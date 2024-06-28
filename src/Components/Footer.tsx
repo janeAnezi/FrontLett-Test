@@ -59,61 +59,61 @@ function Footer() {
               <p className="font-semibold">Platforms</p>
               <ul className="py-4 text-sm">
                 <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
+                <li>InResidency</li>
+                <li>Service Market</li>
+                <li>Founders School</li>
+                <li>Metty</li>
+                <li>Grantty</li>
+                <li>Boldtell</li>
+                <li>Chekwa</li>
               </ul> 
             </FooterCard>
             <FooterCard title="">
-              <p className="font-semibold">Platforms</p>
+              <p className="font-semibold">Initiatives</p>
               <ul className="py-4 text-sm">
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
+                <li>Jabi Plains</li>
+                <li>Local Pricing Initiative</li>
+                <li>Scholarship Program</li>
+                <li>SSMN Pricing</li>
+                <li>University STEM</li>
+                <li>University InResidency</li>
+                <li>1M Nigeria<span><img className="ml-1 w-4 h-4" src={nig} alt="nigerian logo" /></span>Products</li>
+                <li>Founders Festival</li>
               </ul> 
             </FooterCard>
             <FooterCard title="">
-              <p className="font-semibold">Platforms</p>
+              <p className="font-semibold">About Us</p>
               <ul className="py-4 text-sm">
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
+                <li>Who We Are</li>
+                <li>Our People</li>
+                <li>Concept Innovations</li>
+                <li>Our Process</li>
+                <li>Investors Network</li>
+                <li>CSR & Events</li>
+                <li>Career</li>
+                <li>Contact</li>
               </ul> 
             </FooterCard>
             <FooterCard title="">
-              <p className="font-semibold">Platforms</p>
+              <p className="font-semibold">More</p>
               <ul className="py-4 text-sm">
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
+                <li>Services</li>
+                <li>Equity Jobs</li>
+                <li>EIR Program</li>
+                <li>Offers</li>
+                <li>Innovation News</li>
+                <li>FAQ</li>
+                <li>Blog & Resources</li>
+                <li>Press</li>
               </ul> 
             </FooterCard>
             <div className="border-l">
               <FooterCard title="">
-                <p className="font-semibold">Platforms</p>
+                <p className="font-semibold">Locations</p>
                 <ul className="py-4 text-sm">
-                  <li>Kofoundme</li>
-                  <li>Kofoundme</li>
-                  <li>Kofoundme</li>
+                  <li>Abuja, Nigeria</li>
+                  <li>Lagos, Nigeria</li>
+                  <li>Philadelphia, USA</li>
                 </ul> 
                 <div className="flex mt-20">
                   <div>
@@ -147,11 +147,11 @@ function Footer() {
             </div>
             <div className="flex">
               <img src={fb} alt="facebook icon" />
-              <img src={twitter} alt="twitter icon" />
+              <img className="mx-3" src={twitter} alt="twitter icon" />
               <img src={insta} alt="instagram icon" />
-              <img src={ldn} alt="linkedin icon" />
+              <img className="mx-3" src={ldn} alt="linkedin icon" />
               <img src={medum} alt="medium icon" />
-              <img src={yt} alt="twitter icon" />
+              <img className="mx-3" src={yt} alt="twitter icon" />
               <img src={letchat} alt="let chat icon" />
             </div>
           </div>
