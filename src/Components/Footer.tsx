@@ -29,42 +29,17 @@ function Footer() {
               </p>
               <p className="py-4 text-sm w-32">SINC Partners is a service incubation company connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%)</p> 
             </FooterCard>
+     
             <FooterCard title="">
               <p className="font-semibold">Platforms</p>
               <ul className="py-4 text-sm">
                 <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-              </ul> 
-            </FooterCard>
-            <FooterCard title="">
-              <p className="font-semibold">Platforms</p>
-              <ul className="py-4 text-sm">
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-                <li>Kofoundme</li>
-              </ul> 
-            </FooterCard>
-            <FooterCard title="">
-              <p className="font-semibold">Platforms</p>
-              <ul className="py-4 text-sm">
-                <li>Kofoundme</li>
-                <li>InResidency</li>
+                <li className="py-2">InResidency</li>
                 <li>Service Market</li>
-                <li>Founders School</li>
+                <li className="py-2">Founders School</li>
                 <li>Metty</li>
-                <li>Grantty</li>
-                <li>Boldtell</li>
+                <li className="py-2">Grantty</li>
+                <li className="pb-2">Boldtell</li>
                 <li>Chekwa</li>
               </ul> 
             </FooterCard>
@@ -72,12 +47,12 @@ function Footer() {
               <p className="font-semibold">Initiatives</p>
               <ul className="py-4 text-sm">
                 <li>Jabi Plains</li>
-                <li>Local Pricing Initiative</li>
+                <li className="py-2">Local Pricing Initiative</li>
                 <li>Scholarship Program</li>
-                <li>SSMN Pricing</li>
+                <li className="py-2">SSMN Pricing</li>
                 <li>University STEM</li>
-                <li>University InResidency</li>
-                <li>1M Nigeria<span><img className="ml-1 w-4 h-4" src={nig} alt="nigerian logo" /></span>Products</li>
+                <li className="py-2">University InResidency</li>
+                <li className="pb-2">1M Nigeria<span><img className="ml-1 w-4 h-4" src={nig} alt="nigerian logo" /></span>Products</li>
                 <li>Founders Festival</li>
               </ul> 
             </FooterCard>
@@ -85,12 +60,12 @@ function Footer() {
               <p className="font-semibold">About Us</p>
               <ul className="py-4 text-sm">
                 <li>Who We Are</li>
-                <li>Our People</li>
+                <li className="py-2">Our People</li>
                 <li>Concept Innovations</li>
-                <li>Our Process</li>
+                <li className="py-2">Our Process</li>
                 <li>Investors Network</li>
-                <li>CSR & Events</li>
-                <li>Career</li>
+                <li className="py-2">CSR & Events</li>
+                <li className="pb-2">Career</li>
                 <li>Contact</li>
               </ul> 
             </FooterCard>
@@ -98,12 +73,12 @@ function Footer() {
               <p className="font-semibold">More</p>
               <ul className="py-4 text-sm">
                 <li>Services</li>
-                <li>Equity Jobs</li>
+                <li className="py-2">Equity Jobs</li>
                 <li>EIR Program</li>
-                <li>Offers</li>
+                <li className="py-2">Offers</li>
                 <li>Innovation News</li>
-                <li>FAQ</li>
-                <li>Blog & Resources</li>
+                <li className="py-2">FAQ</li>
+                <li className="pg-2">Blog & Resources</li>
                 <li>Press</li>
               </ul> 
             </FooterCard>
@@ -112,7 +87,7 @@ function Footer() {
                 <p className="font-semibold">Locations</p>
                 <ul className="py-4 text-sm">
                   <li>Abuja, Nigeria</li>
-                  <li>Lagos, Nigeria</li>
+                  <li className="py-2">Lagos, Nigeria</li>
                   <li>Philadelphia, USA</li>
                 </ul> 
                 <div className="flex mt-20">
@@ -120,8 +95,8 @@ function Footer() {
                     <img src={footersc} alt="footer sticker" />
                     <p className="text-sm">Trusted Buisness</p>
                   </div>
-                  <div>
-                    <img className="w-9 h-9 mt-8 ml-5" src={whatsapp} alt="whatsapp icon" />
+                  <div className="ml-4">
+                    <img className="w-9 h-9 mt-9 mb-2 ml-4" src={whatsapp} alt="whatsapp icon" />
                     <p className="text-sm">Chat with us</p>
                   </div>
                   
